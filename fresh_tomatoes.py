@@ -9,7 +9,7 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Udacity - Project Movie Trailer!</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -38,6 +38,12 @@ main_page_head = '''
         .movie-tile {
             margin-bottom: 20px;
             padding-top: 20px;
+        }
+        .movie-tile img {
+            box-shadow: 1px 1px 5px #00ACFF;
+        }
+        .movie-tile:hover img {
+            box-shadow: 2px 2px 15px #00ACFF;
         }
         .movie-tile:hover {
             background-color: #EEE;
@@ -107,7 +113,7 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Udacity - Project Movie Trailer</a>
           </div>
         </div>
       </div>
